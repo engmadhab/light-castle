@@ -1,0 +1,72 @@
+
+/*start Featured Insights area*/
+.featured-insights-left{
+	background: url(../../img/insights/mfi.jpg) no-repeat;
+	background-size: cover;	
+	padding: 25% 5% 6%;
+}
+.featured-insights-left-inner{
+	background: #fff;
+	padding: 5%;
+}
+.featured-insights-left-inner h5{
+	color: #e37536;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.featured-insights-left-inner h3{
+	font-size: 22px;
+    line-height: 30px;
+    color:#31354c;
+}
+.featured-insights-left-inner p{
+
+}
+/*=================featured-insights-right-box===============*/
+
+.featured-insights-right-box{
+	margin-bottom: 2%;
+	-webkit-box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.2);
+}
+.featured-insights-right-box:hover{
+	-webkit-box-shadow: 2px 0px 8px 0px rgba(0,116,178,0.2);
+-moz-box-shadow: 2px 0px 8px 0px rgba(0,116,178,0.2);
+box-shadow: 2px 0px 8px 0px rgba(0,116,178,0.2);
+}
+.featured-insights-description{
+	padding: 10px;
+}
+.featured-insights-description h4{
+    color: #e37536;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.featured-insights-description h3{
+	font-size: 18px;
+    line-height: 26px;
+    color:#31354c;
+
+}
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+

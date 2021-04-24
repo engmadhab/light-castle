@@ -1,0 +1,36 @@
+/*
+Theme Name: Light Castle
+
+Author: Madhab
+
+Version: 1.0
+*/
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(owl.carousel.css);
+@import url(animate.css);
+@import url(magnific-popup.css);
+@import url(menumaker.css);
+@import url(reset.css);
+@import url(section/topbar.css);
+@import url(section/menu.css);
+@import url(section/menu-2.css);
+@import url(section/home.css);
+@import url(section/about.css);
+@import url(section/latest-post.css);
+@import url(section/services.css);
+@import url(section/counter.css);
+@import url(section/testimonial.css);
+@import url(section/project-two.css);
+@import url(section/featured-insights.css);
+@import url(section/featured-video.css);
+@import url(section/event-coundown.css);
+@import url(section/spa-menu.css);
+@import url(section/footer.css);
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}

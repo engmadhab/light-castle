@@ -1,0 +1,87 @@
+.event-coundown-banner{
+	background: #f1f2f3;
+}
+.register-for-access{
+    padding: 80px 30px;
+    background: #999999;
+}
+.register-for-access h3{
+    color: #737373;
+    padding-bottom: 18px;
+
+}
+.register-for-access .form-control {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius:0px; 
+    border: 1px solid #d7d7d7;
+}
+.register-for-access .form-control:focus {
+    box-shadow: none;
+    border-color: #0073b2; 
+}
+.register-for-access .btn {
+    min-height: 50px; 
+    border-radius: 0;
+    background: #0073b2;
+    color: #fff;
+}
+.register-for-access .btn:hover{
+    cursor: pointer;
+    background: #e8762f;
+}
+/*============================*/
+.event-launch h3{
+    text-align: center;
+    padding-bottom: 16px;
+    color: #737373;
+}
+.launch-box-content{
+
+}
+.launch-box-content ul{
+    
+}
+.launch-box-content ul li{
+    border: 1px solid #ababab;
+    padding: 15px 20px;
+    float: left;
+    margin: 0px 5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: bold;
+    width: 21%;
+    color: #737373;
+}
+.launch-box-content ul li span{
+    font-weight: normal;
+    font-size: 14px;
+
+}
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .section-title h2 {
+    font-size: 22px;
+    }
+    .register-for-access h3{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .register-for-access h3{
+        font-size: 20px;
+    }
+}

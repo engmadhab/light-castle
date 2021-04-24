@@ -1,0 +1,158 @@
+
+section.services-section.section-padding {
+    padding-bottom: 50px;
+}
+.services-section {
+    background: #fff;
+}
+
+.services-title h4 {
+    padding-left: 80px;
+    font-weight: 800;
+    color: #0073b2;
+    font-size: 18px;
+    line-height: 60px;
+    transition: .4s;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.services-title span {
+    background: #0073b2;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    transition: .4s;
+    color: #fff;
+    font-size: 20px;
+}
+
+.single-services p {
+
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    transition: .4s;
+}
+
+.single-services a {
+    color: #003445;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    transition: .4s;
+}
+
+.single-services a span {
+    padding-left: 7px;
+    font-weight: 600;
+}
+/*
+.single-services:hover .services-title span {
+    background-color: #003445;
+    color: #fff;
+}
+
+.single-services:hover a {
+    color: #e8762f;
+}*/
+.single-services a.read-more{
+    padding-top: 15px;
+}
+.single-services a.read-more:hover{
+    color: #e8762f;
+
+}
+/*=======================*/
+.single-services {
+    padding-bottom: 50px;
+}
+
+.more-services-button a.art-btn {
+    width: 230px;
+}
+.service-tab{
+    padding-bottom: 50px;
+
+}
+.service-tab ul{
+
+}
+.nav-tabs .nav-link{
+    border: none;
+}
+.service-tab ul li.nav-item .nav-link{
+    color: #c1c1c1;
+    font-size: 20px;
+    line-height: 50px;
+}
+.service-tab ul li.nav-item .nav-link.active{
+    border-bottom: 1px solid #e8762f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #2e2a2a;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.service-details{
+
+}
+.service-details ul{
+    padding-left:17px;
+    margin-left: 27px;
+    border-left: 1px solid #bcbcbc;
+
+}
+.service-details ul li{
+    list-style: disc;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #2e2a2a;
+}
+.service-details ul li::marker{
+    color: #bcbcbc;
+}
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.services-title h4{
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services-title h4{
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .services-title h4 {
+        font-size: 17px;
+        line-height: normal;
+    }
+    .single-services p {
+        padding-top: 10px;
+    }
+
+.more-services-button a.art-btn {
+  margin-top: 0;
+}
+.more-services-button {
+  text-align: left;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

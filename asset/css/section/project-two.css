@@ -1,0 +1,147 @@
+.single-project:before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-color: rgba(0, 52, 69, .85);
+    transition: .4s;
+    opacity: 0
+}
+
+.single-project {
+    position: relative;
+    overflow: hidden;
+}
+
+.latest-project {
+    background: #f1f2f3;
+}
+
+.project-hover {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    color: #fff;
+    padding: 20px 20px;
+    width: 100%;
+    transition: .5s;
+    opacity: 0;
+    transform: scale(1, 0);
+}
+.project-hover h4 {
+    text-align: center;
+        font-size: 18px;
+    }
+.project-hover h5{
+    text-align: center;
+}
+.single-project:hover .project-hover {
+    bottom:20%;
+    opacity: 1;
+    transform: scale(1, 1);
+    transition-delay: .3s
+}
+
+.single-project:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1
+}
+
+.project-hover a {
+    display: inline-block;
+    border: 2px solid #0073b2;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    transition: .4s
+}
+
+.project-hover a span {
+    padding-left: 5px
+}
+
+.project-hover a:hover {
+    background: #0073b2;
+    color: #fff;
+}
+
+
+
+
+
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .project-hover{
+        padding: 36px 50px;
+    }
+    .project-slider .owl-prev {
+    left: -35px;
+}
+.project-slider .owl-next {
+    right: -35px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .project-hover {
+        padding: 24px 50px;
+    }
+
+    .project-slider .owl-next {
+        top: auto;
+        bottom: -45px;
+        right: 50%;
+        margin-right: -35px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .project-slider .owl-prev {
+        bottom: -45px;
+        top: auto;
+        left: 50%;
+        margin-left: -35px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    section.latest-project.section-padding {
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .project-hover a {
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    .project-hover h4 {
+        font-size: 14px;
+    }
+    .project-hover {
+        padding: 10px;
+    }
+
+}
+.proop-project-section .single-project {
+    margin-bottom: 30px;
+}

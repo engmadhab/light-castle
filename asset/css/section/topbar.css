@@ -1,0 +1,135 @@
+/*start topbar area css*/
+
+.top_bar_area {
+    background: #fdfdfd;
+    line-height: 40px;
+    padding:10px 0px;
+}
+
+ul.single-topbar li {
+    display: inline-block;
+    margin-right: 30px;
+    color: #514e4e;
+}
+
+ul.single-topbar li span:first-child {
+    margin-right: 10px;
+    color: #514e4e;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.topbar-right ul li {
+    display: inline-block;
+}
+
+.topbar-right ul li.social-icon a {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    transition: .4s;
+}
+
+.topbar-right ul li.social-icon a:hover {
+    color: #76B947;
+}
+
+.topbar-right ul li.social-icon {
+    margin-left: 45px;
+}
+
+.topbar-right ul li a.getAquate {
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #76B947;
+    /* padding: 13px 40px; */
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #003445;
+    font-size: 14px;
+    transition: .4s;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.topbar-right ul li a.getAquate:hover {
+    background: #fff;
+}
+
+.geta-quotebox{
+
+}
+.geta-quotebox a{
+
+}
+.geta-quotebox a.getAquate{
+    background: transparent;
+    color: #373434;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 2px solid #0073b2;
+    font-weight: 600;
+    transition: .4s;
+}
+.geta-quotebox a.getAquate:hover{
+    background: #0073b2;
+    color: #fff;
+}
+
+/*end of topbar area css*/
+
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    ul.single-topbar li{
+        margin-right: 8px;
+        font-size: 12px
+    }
+    ul.single-topbar li span:first-child{
+        margin-right: 2px
+    }
+    .topbar-right ul li.social-icon{
+    margin-left: 0
+    }
+    .topbar-right ul li.social-icon a{
+        margin-left: 3px;
+        width: 22px;
+    }
+    .navbar-toggler-icon{
+        position: relative;
+        top: 5px;
+    }
+    .navbar-toggler:foucs{
+        outline: none
+    }
+    .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .single-topbar {
+        display: none;
+    }
+    .topbar-right {
+        text-align: center !important;
+
+    }
+    .topbar-right ul li.social-icon {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

@@ -1,0 +1,67 @@
+.latest-at-lightcastle{
+    background-image: url(../../img/home2.jpg);
+    position: relative;
+}
+.latest-at-lightcastle:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background: rgba(241, 242, 243, .9);
+}
+.latest-at-lightcastle-content{
+    padding: 10px;
+    background: #f6f6f6;
+    border: 1px solid #bcbcbc;
+}
+.latest-at-lightcastle-content:hover{
+    border: 1px solid #e8762f;
+}
+.latest-at-lightcastle-content h5.latest-date{
+    font-size: 14px;
+    line-height: 22px;
+    color: #737373;
+    padding-bottom: 5px;
+}
+.latest-at-lightcastle-content a h3 {
+    font-size: 18px;
+    line-height: 30px;
+    color:#31354c;
+}
+.latest-at-lightcastle-content a{
+    color: #737373;
+}
+.section-title
+ p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #414040;
+}
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .latest-at-lightcastle-content a h3{
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .latest-at-lightcastle-content a h3{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

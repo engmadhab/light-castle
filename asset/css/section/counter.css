@@ -1,0 +1,67 @@
+.counter-up-section{
+	position: relative;
+	background-image: url(../../img/counterbg.jpg);
+	padding: 80px 0
+}
+
+.counter-up-section:before{
+	width: 100%;
+	left: 0;
+	top: 0;
+	content: "";
+	height: 100%;
+	background-color: rgba(0, 52, 69, .85);
+	position: absolute;
+}
+
+.counterbox h2{
+    font-weight:400;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.counterbox h2 span{
+    font-weight: 800;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.single-counter h4 {
+    color: #fff;
+    text-transform:  uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.counter-icon {
+    width: 70px;
+    display:  inline-block;
+    background:  #fff;
+    line-height:  70px;
+    border-radius:  50%;
+    color:  #003445;
+    font-size: 20px;
+}
+
+
+/*responsive query*/
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-counter h4{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+.single-counter {
+    margin-bottom: 50px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
